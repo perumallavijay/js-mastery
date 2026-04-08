@@ -70,3 +70,13 @@ console.log(developer[salaryOfDeveloper])
 // 1. Print name using dot notation
 // 2. Print "current role" using bracket notation
 // 3. Store "salary" in a variable, print using bracket notation
+
+
+const company = {
+    employee : "Paul",
+    salaryPay : 50000,
+    healthInsurence : 800000,
+    joinDate : new Date("2026-05-03")
+
+}
+console.log(company)
