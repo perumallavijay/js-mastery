@@ -52,4 +52,18 @@ const updatedWebDeveloper = {
 };
 
 console.log(updatedWebDeveloper);
-// { name: "Vijay", skill: "React", salary: 60000, location: "Hyderabad" }
+// { name: "Vijay", skill: "React", salary: 60000, location: "Hyderabad" } 
+
+//rest operator 
+function myNewSkills(...skills){
+    console.log(skills);
+}
+myNewSkills("html", "css", "javascript");
+
+//rest with foreach 
+function allNumbers(...numbers){
+    let total = 0;
+    numbers.forEach(num => total += num)
+    return total;
+}
+console.log(allNumbers(10,20,30,40,50,60,70,80,90,100));

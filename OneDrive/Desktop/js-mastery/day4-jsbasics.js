@@ -28,3 +28,23 @@ console.log(goodJobs);
 
 const jobLocation = jobs.find(job => job.location === "Hyderabad");
 console.log(jobLocation);
+
+
+
+///map concept 
+const products = [
+  { name: "phone", price: 10000},
+  { name: "laptop", price: 50000},
+  { name: "tablet", price: 20000}
+];
+
+const newProduct = products.map(product => {
+  return { name:product.name,
+    price:product.price * 1.18,
+    category: product.category
+   } 
+  });
+
+console.log(newProduct)
+
+
